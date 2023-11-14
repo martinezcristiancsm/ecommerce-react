@@ -6,36 +6,36 @@ const btnText = "Comprar";
 
 const categoryList = [
 {
-imgUrl: '../../src/assets/images/category/01.jpg',
+imgUrl: '/src/assets/images/category/01.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Zapatillas de hombre',
 },
 {
-imgUrl: '../../src/assets/images/category/02.jpg',
+imgUrl: '/src/assets/images/category/02.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 title: 'Remeras',
 },
 {
-imgUrl: '../../src/assets/images/category/03.jpg',
+imgUrl: '/src/assets/images/category/03.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Pantalones',
 },
 {
-imgUrl: '../../src/assets/images/category/04.jpg',
+imgUrl: '/src/assets/images/category/04.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Gorras',
 },
 {
-imgUrl: '../../src/assets/images/category/05.jpg',
+imgUrl: '/src/assets/images/category/05.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Mochilas y bolsos',
 },
 {
-imgUrl: '../../src/assets/images/category/06.jpg',
+imgUrl: '/src/assets/images/category/06.jpg',
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Accesorios',
