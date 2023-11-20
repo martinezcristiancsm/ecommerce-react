@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import productData from ".././../public/products.json"
+import productData from ".././../products.json"
 import SelectedCategory from '../components/SelectedCategory';
 
 const title = 
