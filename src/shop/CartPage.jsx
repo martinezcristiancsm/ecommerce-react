@@ -1,7 +1,7 @@
 import React, { useEffect,useState } from 'react'
 import { Link } from 'react-router-dom'
 import PageHeader from "../components/PageHeader"
-import delImgUrl from "../assets/images/shop/del.png"
+import delImgUrl from ".././assets/images/shopp/del.png"
 import CheckOutPage from './CheckOutPage'
 
 const CartPage = () => {
