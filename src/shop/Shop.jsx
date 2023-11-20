@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PageHeader from '../components/PageHeader';
 
 const showResults = "Mostrando 1 - 12 de 139 Resultados"
-import Data from ".././../public/products.json"
+import Data from ".././../products.json"
 import ProductCards from './ProductCards';
 import Pagination from './Pagination';
 import Search from './Search';
