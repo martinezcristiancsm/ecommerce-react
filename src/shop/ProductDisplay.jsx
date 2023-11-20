@@ -41,7 +41,7 @@ const ProductDisplay = ({item}) => {
         color: color,
         coupon:coupon
       }
-      const existingCart = JSON.parse(localStorage.getItem("cart")) || [];
+      const existingCart = JSON.parse(localStorage.getItem("cart") || '[]');
 
       const existingProductIndex = existingCart.findIndex((item) => item.id == id);
       
@@ -92,7 +92,7 @@ const ProductDisplay = ({item}) => {
             </div>
             {/*color*/}
             <div className='select-product color'>
-              <select value={size} onChange={(handleColorChange)}>
+            <select value={color} onChange={handleColorChange}>
                 <option>Colores</option>
                 <option>Negro</option>
                 <option>Gris</option>
